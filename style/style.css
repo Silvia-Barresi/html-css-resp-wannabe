@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:420px){
+  .clear::after{
+    display: none;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    float:none;
+    width: 100%;
+    padding-top: 2%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 100%;
+    padding-top:2%;
+  }

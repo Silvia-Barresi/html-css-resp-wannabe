@@ -3,8 +3,8 @@
 }
 
 @media screen and (max-width:420px){
-  .clear::after{
-    display: none;
+  .row{
+    width:100%;
   }
 
   #lezioni .row > .left, #lezioni .row > .right{
